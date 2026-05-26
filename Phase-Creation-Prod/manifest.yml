@@ -1,0 +1,169 @@
+modules:
+  consumer: #Creates all the Jira issues after form submit
+    - key: queue-consumer
+      queue: task-queue
+      resolver:
+        function: resolver1
+        method: create-activity
+    - key: kpi-update-consumer #Recalculates KPIs when an issue changes
+      queue: kpi-update-queue
+      resolver:
+        function: process-kpi-function
+        method: updateKPI
+    - key: log-update-consumer #Updates actual hours when someone logs time
+      queue: log-update-queue
+      resolver:
+        function: process-log-function
+        method: updateLog
+    - key: update-today-consumer #Updates a "today" date field every 5 minutes
+      queue: update-today-queue
+      resolver:
+        function: update-today-function
+        method: updateToday
+    - key: quotation-update-consumer #Syncs quotation issue data
+      queue: quotation-update-queue
+      resolver:
+        function: update-quot-issue-func
+        method: updateQuotationIssue
+  jira:issueAction:
+    - key: phase-creation-issue-action
+      resource: main
+      displayConditions:
+        and:
+          issueType: Project
+          # #for Stage
+          jiraExpression: user.getProjectRoles(project).some(p => p.name == "Administrators")
+          #for Prod
+          # jiraExpression: issue.customfield_10045?.some(u => u.accountId == user.accountId) || issue.customfield_10044?.some(u => u.accountId == user.accountId) || issue.customfield_10079?.some(u => u.accountId == user.accountId) || issue.customfield_10839?.some(u => u.accountId == user.accountId)
+      resolver:
+        function: resolver
+      viewportSize: large
+      title: Create Phase
+    - key: quotation-creation-issue-action
+      resource: quotation
+      displayConditions:
+        and:
+          issueType: Quotation
+          #for Stage
+          jiraExpression: user.getProjectRoles(project).some(p => p.name == "Administrators")
+          #for Prod
+          # jiraExpression: issue.customfield_10045?.some(u => u.accountId == user.accountId) || issue.customfield_10044?.some(u => u.accountId == user.accountId) || issue.customfield_10079?.some(u => u.accountId == user.accountId) || issue.customfield_10839?.some(u => u.accountId == user.accountId)
+      resolver:
+        function: resolver
+      viewportSize: large
+      title: Create Quotation
+
+  jira:projectSettingsPage:
+    - key: project-settings-page
+      resource: setting
+      resolver:
+        function: resolver
+      title: Phase Configuration
+  # jira:issuePanel:
+  #   - key: hello-world-issue-panel
+  #     resource: main
+  #     resolver:
+  #       function: resolver
+  #     title: Create Phase
+  #     icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+
+  trigger:
+    # - key: update-log-event
+    #   function: updateLog
+    #   events:
+    #     # - avi:jira:updated:issue
+    #     - avi:jira:created:worklog
+    # - key: update-kpi
+    #   function: updateKPI
+    #   events:
+    #     - avi:jira:updated:issue
+    #     # - avi:jira:created:worklog
+    - key: kpi-update-trigger
+      function: enqueue-kpi-function
+      events:
+        - avi:jira:updated:issue
+      filter:
+        expression: "event.issue.fields?.project.key == 'CWO'"
+    - key: log-update-trigger
+      function: enqueue-log-function
+      events:
+        - avi:jira:created:worklog
+        - avi:jira:updated:worklog
+        - avi:jira:deleted:worklog
+      # filter:
+      #   expression: "event.issue.fields?.project.key == 'CWO'"
+
+    - key: update-quotation-issue
+      function: enq-quot-issue-func
+      events:
+        - avi:jira:updated:issue
+      filter:
+        expression: "event.issue.fields?.project.key == 'QUOT'"
+
+  scheduledTrigger:
+    - key: update-today-time
+      function: update-today-field
+      interval: fiveMinute # Runs hourly
+
+  function:
+    - key: resolver1
+      handler: index.handler1
+      timeoutSeconds: 900
+    - key: resolver
+      handler: index.handler
+    # - key: updateLog
+    #   handler: index.updateLog
+    # - key: updateKPI
+    #   handler: index.updateKPI
+    - key: enqueue-kpi-function
+      handler: index.enqueueUpdateKPI
+
+    - key: process-kpi-function
+      handler: index.updateKPI
+      timeoutSeconds: 900
+
+    - key: enqueue-log-function
+      handler: index.enqueueUpdateLog
+
+    - key: process-log-function
+      handler: index.updateLog
+      timeoutSeconds: 900
+
+    - key: enq-quot-issue-func
+      handler: index.enqueueQuotationIssue
+
+    - key: update-quot-issue-func
+      handler: index.updateQuotationIssue
+      timeoutSeconds: 900
+
+    - key: update-today-field
+      handler: index.trigger
+
+    - key: update-today-function
+      handler: index.updateToday
+      timeoutSeconds: 900
+
+# link React app build files to the app
+
+resources:
+  - key: main
+    path: static/create-phase/build
+  - key: setting
+    path: static/phase-setting/build
+  - key: quotation
+    path: static/quotation/build
+permissions:
+  content:
+    styles:
+      - "unsafe-inline"
+  scopes:
+    - storage:app
+    - read:jira-work
+    - write:jira-work
+    - read:jira-user
+    - read:email-address:jira
+
+app:
+  runtime:
+    name: nodejs22.x
+  id: ari:cloud:ecosystem::app/60303d25-7900-4e16-b87b-117b615854af

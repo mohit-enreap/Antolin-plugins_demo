@@ -1,0 +1,25 @@
+Code to change
+One file: Link Activity-INC Mgmt/src/frontend/edit.jsx
+4 spots in it, all the same JQL string (find them by searching the file for Project = CWO):
+
+In initialize() — the main let activityJQL = ... (around line 110)
+In initialize() — the spaced-name fallback activityJQL = ... (around line 115)
+In loadActivities() — the main let activityJQL = ...
+In loadActivities() — the spaced-name fallback activityJQL = ...
+
+One file to check (maybe change): Link Activity-INC Mgmt/src/resolvers/index.js — the getIssuesByJQL handler. Only changes if it adds its own filtering; otherwise leave it.
+Note: what to change in those 4 spots is still blocked on the lead's answer to question 1/2. The Project = CWO clause stays — the change is about which activities are allowed through, not the project key.
+Automation to change
+One rule, no code: creating an incident in the Incident management for Re-Work and Extra Work (Activity)
+
+The version with the "Work item created" trigger (the live one).
+NOT Copy of creating an incident... — that one is manually triggered, it's a backup.
+The change: add a condition step before its "Create a new Incident" action so it skips when an incident is already linked.
+
+Things you are looking at but NOT changing
+
+creating an incident ... for Activity — sibling rule, different trigger, not in scope.
+copy ... when activity is linked — reference only; it proves the "linked" event exists.
+Link activity (INC side, owner Harsh Singh) — investigate first; might already do part of this. Don't change until you know what it does.
+
+So the whole feature touches 1 code file (4 lines) + 1 automation rule, with 1 resolver file and 1 INC-side rule to check first.

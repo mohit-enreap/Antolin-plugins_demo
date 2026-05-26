@@ -1,0 +1,5193 @@
+{
+    "activities": {
+        "INPUTS | Design kick off": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "101",
+            "NORMAL ROOF": {
+                "TDL": 1.8,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting...": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 1.7,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 1.6,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting": {
+                        "TDL": 0.5,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3.2,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 2.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 4.6,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting": {
+                        "TDL": 0.7,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 3.9,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3.1,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 2.4,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3.7,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {
+                    "Project Kick off meeting": {
+                        "TDL": 0.7,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "JIRA": {
+                        "TDL": 3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "DATA PREPARATION | A surface analysis": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "102",
+            "NORMAL ROOF": {
+                "TDL": 1.8,
+                "COO": 0.6,
+                "DE": 5.8,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.3,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 3.1,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 1.2,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 1.9,
+                "COO": 0.7,
+                "DE": 6.4,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.7,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.3,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 3.5,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 0.7,
+                        "COO": 0,
+                        "DE": 1.4,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 2.1,
+                "COO": 0.8,
+                "DE": 7,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.8,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 0.5,
+                        "COO": 0,
+                        "DE": 0.5,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.3,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 0.8,
+                        "COO": 0.8,
+                        "DE": 3.9,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 0.8,
+                        "COO": 0,
+                        "DE": 1.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.9,
+                "COO": 0.8,
+                "DE": 8.4,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.8,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 1.3,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 0.8,
+                        "COO": 0.8,
+                        "DE": 4,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 0.8,
+                        "COO": 0,
+                        "DE": 1.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.9,
+                "COO": 1,
+                "DE": 10.9,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 2,
+                        "COO": 0,
+                        "DE": 2,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 1,
+                        "COO": 1,
+                        "DE": 4.9,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 2,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3.1,
+                "COO": 0.9,
+                "DE": 9.2,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.9,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 1.2,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 0.9,
+                        "COO": 0.9,
+                        "DE": 4.6,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 0.9,
+                        "COO": 0,
+                        "DE": 1.8,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3.7,
+                "COO": 1.1,
+                "DE": 11.1,
+                "subactivity": {
+                    "Join - Tangency surfaces": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1.1,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "1"
+                    },
+                    "Sketch drawing ": {
+                        "TDL": 1.5,
+                        "COO": 0,
+                        "DE": 1.5,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "2"
+                    },
+                    "Logistic study for basic headliner ": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 0.7,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "3"
+                    },
+                    "Clash and Clearance analysis": {
+                        "TDL": 1.1,
+                        "COO": 1.1,
+                        "DE": 5.5,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "4"
+                    },
+                    "RFQ components": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 2.2,
+                        "Proto": 3,
+                        "Serie": 2,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "DATA PREPARATION | Feasibility Study": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "103",
+            "NORMAL ROOF": {
+                "TDL": 3.1,
+                "COO": 0.6,
+                "DE": 1.8,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 0.6,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 0.6,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 3.1,
+                "COO": 0.6,
+                "DE": 2.5,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 0.7,
+                        "COO": 0,
+                        "DE": 0.7,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 0.7,
+                        "COO": 0,
+                        "DE": 0.7,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.1,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 3.1,
+                "COO": 0.5,
+                "DE": 2.6,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 0.8,
+                        "COO": 0,
+                        "DE": 0.8,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 0.8,
+                        "COO": 0,
+                        "DE": 0.8,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.5,
+                        "COO": 0.5,
+                        "DE": 1,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3.5,
+                "COO": 0.6,
+                "DE": 2.9,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 0.8,
+                        "COO": 0,
+                        "DE": 0.8,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 0.8,
+                        "COO": 0,
+                        "DE": 0.8,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.3,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.9,
+                "COO": 0.7,
+                "DE": 3.3,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 1,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 1,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 1.3,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3.7,
+                "COO": 0.6,
+                "DE": 3.1,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 0.9,
+                        "COO": 0,
+                        "DE": 0.9,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 0.9,
+                        "COO": 0,
+                        "DE": 0.9,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.2,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 4.4,
+                "COO": 0.7,
+                "DE": 3.7,
+                "subactivity": {
+                    "      Draft analysis": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 1.1,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "1"
+                    },
+                    "      Pillars feasibility pre-study": {
+                        "TDL": 1.5,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "2"
+                    },
+                    "      Radius analysis": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 1.1,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "3"
+                    },
+                    "      Gap and flush": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 1.5,
+                        "Proto": 8,
+                        "Serie": 6,
+                        "order": "4"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "DATA PREPARATION | A side proposal": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "104",
+            "NORMAL ROOF": {
+                "TDL": 6.1,
+                "COO": 3.1,
+                "DE": 27.6,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 5.6,
+                "COO": 2.8,
+                "DE": 25,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 5.2,
+                "COO": 2.6,
+                "DE": 23.4,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 6.4,
+                "COO": 3.2,
+                "DE": 28.9,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 6.6,
+                "COO": 3.3,
+                "DE": 29.6,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 6.1,
+                "COO": 3.1,
+                "DE": 27.5,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 7.4,
+                "COO": 3.7,
+                "DE": 33.3,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "CONCEPT | Master sections": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "105",
+            "NORMAL ROOF": {
+                "TDL": 9.2,
+                "COO": 1.8,
+                "DE": 20.2,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 4.9,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 4.9,
+                        "COO": 1.2,
+                        "DE": 15.3,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 3.7,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 9.4,
+                "COO": 1.7,
+                "DE": 22.2,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 5.6,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 4.4,
+                        "COO": 1.1,
+                        "DE": 16.7,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 4.4,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 8.8,
+                "COO": 1.6,
+                "DE": 20.8,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.5,
+                        "COO": 0.5,
+                        "DE": 5.2,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 4.2,
+                        "COO": 1,
+                        "DE": 15.6,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 4.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 10.9,
+                "COO": 1.9,
+                "DE": 25.7,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 6.4,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 5.1,
+                        "COO": 1.3,
+                        "DE": 19.3,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 5.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 11.2,
+                "COO": 2,
+                "DE": 26.3,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 6.6,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 5.3,
+                        "COO": 1.3,
+                        "DE": 19.7,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 5.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 10.4,
+                "COO": 1.8,
+                "DE": 24.5,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 6.1,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 4.9,
+                        "COO": 1.2,
+                        "DE": 18.4,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 4.9,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 12.6,
+                "COO": 2.2,
+                "DE": 29.6,
+                "subactivity": {
+                    "Predefinition sections for a side and biw": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 7.4,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "Hdl design (Master Sections)": {
+                        "TDL": 5.9,
+                        "COO": 1.5,
+                        "DE": 22.2,
+                        "Proto": 6,
+                        "Serie": 4,
+                        "order": "2"
+                    },
+                    "Master section customer handbook comparison": {
+                        "TDL": 5.9,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "3"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "BASIC DESIGN | 3d HDL basic design": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "106",
+            "NORMAL ROOF": {
+                "TDL": 4.3,
+                "COO": 3.7,
+                "DE": 18.4,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 1.8,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 1.2,
+                        "COO": 2.5,
+                        "DE": 9.8,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 1.8,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 3.9,
+                "COO": 3.3,
+                "DE": 20,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1.1,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 0.6,
+                        "COO": 0,
+                        "DE": 1.7,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 1.1,
+                        "COO": 2.2,
+                        "DE": 8.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.1,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 2.8,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 1.7,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 2.8,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 3.6,
+                "COO": 3.1,
+                "DE": 20.2,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 1,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 0.5,
+                        "COO": 0,
+                        "DE": 1.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 1,
+                        "COO": 2.1,
+                        "DE": 8.3,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.5,
+                        "COO": 0.5,
+                        "DE": 1,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 0.5,
+                        "COO": 0.5,
+                        "DE": 2.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 1.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 4.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 7.1,
+                "COO": 7.1,
+                "DE": 39.2,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 2.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 3.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 2.6,
+                        "COO": 5.1,
+                        "DE": 20.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.3,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 1.3,
+                        "COO": 1.3,
+                        "DE": 4.5,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 1.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 4.5,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 9.9,
+                "COO": 10.5,
+                "DE": 62.5,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 3.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 2,
+                        "COO": 0,
+                        "DE": 5.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 3.9,
+                        "COO": 7.9,
+                        "DE": 31.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 1.3,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 2,
+                        "COO": 2,
+                        "DE": 7.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 9.9,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 6.7,
+                "COO": 6.7,
+                "DE": 39.2,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 2.4,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 3.7,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 2.4,
+                        "COO": 4.9,
+                        "DE": 19.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.6,
+                        "COO": 0.6,
+                        "DE": 1.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 1.2,
+                        "COO": 1.2,
+                        "DE": 4.3,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 1.8,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 6.1,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 8.1,
+                "COO": 8.1,
+                "DE": 51.8,
+                "subactivity": {
+                    "      A side": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 3,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "1"
+                    },
+                    "      B side": {
+                        "TDL": 1.5,
+                        "COO": 0,
+                        "DE": 4.4,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "2"
+                    },
+                    "      C side": {
+                        "TDL": 3,
+                        "COO": 5.9,
+                        "DE": 23.7,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "3"
+                    },
+                    "      Perimeter": {
+                        "TDL": 0.7,
+                        "COO": 0.7,
+                        "DE": 1.5,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "4"
+                    },
+                    "      Cut-outs": {
+                        "TDL": 1.5,
+                        "COO": 1.5,
+                        "DE": 7.4,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "5"
+                    },
+                    "      RPS point": {
+                        "TDL": 1.5,
+                        "COO": 0,
+                        "DE": 2.2,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "6"
+                    },
+                    "      Body closing": {
+                        "TDL": 0,
+                        "COO": 0,
+                        "DE": 9.6,
+                        "Proto": 6,
+                        "Serie": 5,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "TOOL DESIGN | 3d mould design": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "107",
+            "NORMAL ROOF": {
+                "TDL": 19.6,
+                "COO": 11.6,
+                "DE": 148.9,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 5.5,
+                        "COO": 1.2,
+                        "DE": 4.9,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 42.9,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 3.1,
+                        "COO": 2.5,
+                        "DE": 30.6,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 2.5,
+                        "COO": 2.5,
+                        "DE": 24.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 1.2,
+                        "COO": 2.5,
+                        "DE": 12.3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 3.7,
+                        "COO": 0.6,
+                        "DE": 9.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 2.5,
+                        "COO": 2.5,
+                        "DE": 24.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 19.3,
+                "COO": 11.2,
+                "DE": 145,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 5,
+                        "COO": 1.1,
+                        "DE": 5.6,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 38.9,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 3.5,
+                        "COO": 2.8,
+                        "DE": 34.7,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 2.2,
+                        "COO": 2.2,
+                        "DE": 22.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 1.1,
+                        "COO": 2.2,
+                        "DE": 11.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 4.2,
+                        "COO": 0.7,
+                        "DE": 10.4,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 2.2,
+                        "COO": 2.2,
+                        "DE": 22.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 19.5,
+                "COO": 11.2,
+                "DE": 145.1,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 4.7,
+                        "COO": 1,
+                        "DE": 6.2,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 36.3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 3.9,
+                        "COO": 3.1,
+                        "DE": 38.9,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 2.1,
+                        "COO": 2.1,
+                        "DE": 20.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 1,
+                        "COO": 2.1,
+                        "DE": 10.4,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 4.7,
+                        "COO": 0.8,
+                        "DE": 11.7,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 2.1,
+                        "COO": 2.1,
+                        "DE": 20.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 37.8,
+                "COO": 20.1,
+                "DE": 272.8,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 11.6,
+                        "COO": 2.6,
+                        "DE": 11.6,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 2.6,
+                        "COO": 0,
+                        "DE": 90,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 7.2,
+                        "COO": 5.8,
+                        "DE": 72.3,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 2.6,
+                        "COO": 2.6,
+                        "DE": 25.7,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 2.6,
+                        "COO": 5.1,
+                        "DE": 25.7,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 8.7,
+                        "COO": 1.4,
+                        "DE": 21.7,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 2.6,
+                        "COO": 2.6,
+                        "DE": 25.7,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 58,
+                "COO": 29.4,
+                "DE": 410.2,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 17.8,
+                        "COO": 3.9,
+                        "DE": 19.7,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 3.9,
+                        "COO": 0,
+                        "DE": 138.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 12.3,
+                        "COO": 9.9,
+                        "DE": 123.3,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 2.6,
+                        "COO": 2.6,
+                        "DE": 26.3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 3.9,
+                        "COO": 7.9,
+                        "DE": 39.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 14.8,
+                        "COO": 2.5,
+                        "DE": 37,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 2.6,
+                        "COO": 2.6,
+                        "DE": 26.3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 37.6,
+                "COO": 19.9,
+                "DE": 270.7,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 11,
+                        "COO": 2.4,
+                        "DE": 12.2,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 2.4,
+                        "COO": 0,
+                        "DE": 85.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 7.6,
+                        "COO": 6.1,
+                        "DE": 76.5,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 2.4,
+                        "COO": 2.4,
+                        "DE": 24.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 2.4,
+                        "COO": 4.9,
+                        "DE": 24.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 9.2,
+                        "COO": 1.5,
+                        "DE": 22.9,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 2.4,
+                        "COO": 2.4,
+                        "DE": 24.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 47.5,
+                "COO": 25,
+                "DE": 340.7,
+                "subactivity": {
+                    "Mould definition": {
+                        "TDL": 13.3,
+                        "COO": 3,
+                        "DE": 16.3,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "1"
+                    },
+                    "            Forming B side": {
+                        "TDL": 3,
+                        "COO": 0,
+                        "DE": 103.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "            Forming C side": {
+                        "TDL": 10.2,
+                        "COO": 8.1,
+                        "DE": 101.7,
+                        "Proto": 2,
+                        "Serie": 0,
+                        "order": "3"
+                    },
+                    "            Forming Tooling surface - outlines": {
+                        "TDL": 3,
+                        "COO": 3,
+                        "DE": 29.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "            Covering A side": {
+                        "TDL": 3,
+                        "COO": 5.9,
+                        "DE": 29.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "            Covering C side": {
+                        "TDL": 12.2,
+                        "COO": 2,
+                        "DE": 30.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "6"
+                    },
+                    "            Covering Tooling surface": {
+                        "TDL": 3,
+                        "COO": 3,
+                        "DE": 29.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "TOOL DESIGN | Pillar matching (fakes)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "108",
+            "NORMAL ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 9.2,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "SUN ROOF": {
+                "TDL": 1.1,
+                "COO": 0.6,
+                "DE": 8.3,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "PANO ROOF": {
+                "TDL": 1,
+                "COO": 0.5,
+                "DE": 7.8,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.3,
+                "COO": 0.6,
+                "DE": 9.6,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 1.3,
+                "COO": 0.7,
+                "DE": 9.9,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 9.2,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 0.7,
+                "DE": 11.1,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            }
+        },
+        "TOOL DESIGN | Wing bending": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "109",
+            "NORMAL ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 9.2,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "SUN ROOF": {
+                "TDL": 1.1,
+                "COO": 0.6,
+                "DE": 8.3,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "PANO ROOF": {
+                "TDL": 1,
+                "COO": 0.5,
+                "DE": 7.8,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.3,
+                "COO": 0.6,
+                "DE": 9.6,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 1.3,
+                "COO": 0.7,
+                "DE": 9.9,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 9.2,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 0.7,
+                "DE": 11.1,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            }
+        },
+        "TOOL DESIGN | Hdl water jet nest definition": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "110",
+            "NORMAL ROOF": {
+                "TDL": 3.1,
+                "COO": 1.2,
+                "DE": 21.4,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 2.8,
+                "COO": 1.1,
+                "DE": 24.3,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 2.6,
+                "COO": 1,
+                "DE": 27.2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3.2,
+                "COO": 1.3,
+                "DE": 28.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.3,
+                "COO": 1.3,
+                "DE": 34.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3.1,
+                "COO": 1.2,
+                "DE": 32.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3.7,
+                "COO": 1.5,
+                "DE": 38.8,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Markings": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "111",
+            "NORMAL ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 6.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.1,
+                "COO": 0.6,
+                "DE": 4.4,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1,
+                "COO": 0.5,
+                "DE": 3.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.6,
+                "COO": 1.3,
+                "DE": 11.6,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.9,
+                "COO": 2,
+                "DE": 15.8,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.4,
+                "COO": 1.2,
+                "DE": 9.8,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 1.5,
+                "DE": 10.4,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Routing (airbag split/hinge line+roof harness+washer hose)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "112",
+            "NORMAL ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 8.6,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.1,
+                "COO": 0.6,
+                "DE": 6.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1,
+                "COO": 0.5,
+                "DE": 5.2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.6,
+                "COO": 1.3,
+                "DE": 16.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.9,
+                "COO": 2,
+                "DE": 23.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.4,
+                "COO": 1.2,
+                "DE": 14.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 1.5,
+                "DE": 16.3,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Perimeter and cutout orientation": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "113",
+            "NORMAL ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.1,
+                "COO": 0.6,
+                "DE": 1.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1,
+                "COO": 0.5,
+                "DE": 1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.6,
+                "COO": 1.3,
+                "DE": 4.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.9,
+                "COO": 2,
+                "DE": 5.9,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.4,
+                "COO": 1.2,
+                "DE": 3.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 1.5,
+                "DE": 3.7,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Variants creation": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "114",
+            "NORMAL ROOF": {
+                "TDL": 0.6,
+                "COO": 0.6,
+                "DE": 4.9,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 0.6,
+                "COO": 0.6,
+                "DE": 3.3,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 0.5,
+                "COO": 0.5,
+                "DE": 2.6,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.3,
+                "COO": 1.3,
+                "DE": 9,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 2,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.2,
+                "COO": 1.2,
+                "DE": 8,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 1.5,
+                "DE": 8.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Logistic study for Assembly (Assembly Packaging)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "115",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 1.2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 1.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 2.6,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 3.9,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 2.4,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 3,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Thickness map by point": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "116",
+            "NORMAL ROOF": {
+                "TDL": 2.5,
+                "COO": 1.2,
+                "DE": 3.7,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 1.2,
+                        "COO": 0.6,
+                        "DE": 1.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 1.2,
+                        "COO": 0.6,
+                        "DE": 1.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 2.2,
+                "COO": 1.1,
+                "DE": 2.2,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 1.1,
+                        "COO": 0.6,
+                        "DE": 1.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 1.1,
+                        "COO": 0.6,
+                        "DE": 1.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 2.1,
+                "COO": 1,
+                "DE": 2.1,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 1,
+                        "COO": 0.5,
+                        "DE": 1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 1,
+                        "COO": 0.5,
+                        "DE": 1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 5.1,
+                "COO": 2.6,
+                "DE": 6.4,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 2.6,
+                        "COO": 1.3,
+                        "DE": 3.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 2.6,
+                        "COO": 1.3,
+                        "DE": 3.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 7.9,
+                "COO": 3.9,
+                "DE": 9.2,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 3.9,
+                        "COO": 2,
+                        "DE": 4.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 3.9,
+                        "COO": 2,
+                        "DE": 4.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 4.9,
+                "COO": 2.4,
+                "DE": 6.1,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 2.4,
+                        "COO": 1.2,
+                        "DE": 3.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 2.4,
+                        "COO": 1.2,
+                        "DE": 3.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 5.9,
+                "COO": 3,
+                "DE": 5.9,
+                "subactivity": {
+                    "      Thickness map by point (HDL)": {
+                        "TDL": 3,
+                        "COO": 1.5,
+                        "DE": 3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Thickness map by point (Mould)": {
+                        "TDL": 3,
+                        "COO": 1.5,
+                        "DE": 3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "DETAIL DESIGN | Cartography study (acoustic)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "117",
+            "NORMAL ROOF": {
+                "TDL": 1.2,
+                "COO": 0.6,
+                "DE": 5.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.1,
+                "COO": 0.6,
+                "DE": 3.9,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1,
+                "COO": 0.5,
+                "DE": 3.6,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.6,
+                "COO": 1.3,
+                "DE": 10.3,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.9,
+                "COO": 2,
+                "DE": 15.1,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.4,
+                "COO": 1.2,
+                "DE": 9.8,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 1.5,
+                "DE": 10.4,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "DETAIL DESIGN | Hdl templates for dimensional control": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "118",
+            "NORMAL ROOF": {
+                "TDL": 0.6,
+                "COO": 0.6,
+                "DE": 1.8,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 0.6,
+                "COO": 0.6,
+                "DE": 1.7,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 0.5,
+                "COO": 0.5,
+                "DE": 1.6,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0.6,
+                "COO": 0.6,
+                "DE": 1.9,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0.7,
+                "COO": 0.7,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0.6,
+                "COO": 0.6,
+                "DE": 1.8,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0.7,
+                "COO": 0.7,
+                "DE": 2.2,
+                "subactivity": {},
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "3D DELIVERABLES | DMU & Customer data delivery": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "119",
+            "NORMAL ROOF": {
+                "TDL": 7.4,
+                "COO": 1.2,
+                "DE": 3.7,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 3.7,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 0.6,
+                        "DE": 2.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 0.6,
+                        "DE": 1.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 2.5,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 7.8,
+                "COO": 1.1,
+                "DE": 4.4,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 4.4,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 0.6,
+                        "DE": 2.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 0.6,
+                        "DE": 1.7,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 2.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 7.8,
+                "COO": 1,
+                "DE": 4.7,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 4.7,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 0.5,
+                        "DE": 3.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 0.5,
+                        "DE": 1.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 2.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 9,
+                "COO": 2.6,
+                "DE": 9,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 5.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 1.3,
+                        "DE": 5.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 1.3,
+                        "DE": 3.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 2.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 9.9,
+                "COO": 3.9,
+                "DE": 15.1,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 5.9,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 2,
+                        "DE": 9.9,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 2,
+                        "DE": 5.3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 2.6,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 9.2,
+                "COO": 2.4,
+                "DE": 9.2,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 5.5,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 1.2,
+                        "DE": 6.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 1.2,
+                        "DE": 3.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 2.4,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 11.1,
+                "COO": 3,
+                "DE": 12.6,
+                "subactivity": {
+                    "DMU": {
+                        "TDL": 6.7,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "      Customer delivery file prepartion + DAXS output": {
+                        "TDL": 0,
+                        "COO": 1.5,
+                        "DE": 8.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "      Quality check run (PQA, Validat)": {
+                        "TDL": 0,
+                        "COO": 1.5,
+                        "DE": 4.4,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "Transfer Document: Lessons Learnt & CAD data structure": {
+                        "TDL": 3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "4"
+                    },
+                    "SWOT": {
+                        "TDL": 1.5,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 0,
+                        "Serie": 1,
+                        "order": "5"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "2D DELIVERABLES | Internal Drawing Main Parts": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "120",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.5,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 7,
+                "Serie": 7
+            }
+        },
+        "2D DELIVERABLES | Cop/Inherit Drawings": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "121",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0.2,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            }
+        },
+        "2D DELIVERABLES | Format Drawing": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "122",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 6,
+                "Serie": 6
+            }
+        },
+        "2D DELIVERABLES | Roll Drawing": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "123",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "2D DELIVERABLES | Nvh Drawing": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "124",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 1.1,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            }
+        },
+        "2D DELIVERABLES | Customer Part Drawings": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "125",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 3,
+                "DE": 40,
+                "subactivity": {},
+                "Proto": 2,
+                "Serie": 2
+            }
+        },
+        "2D DELIVERABLES | Customer Assy Drawings": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "126",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 7.5,
+                "DE": 100,
+                "subactivity": {},
+                "Proto": 4,
+                "Serie": 4
+            }
+        },
+        "GOVERNANCE | Monitoring & Coordination": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "127",
+            "NORMAL ROOF": {
+                "TDL": 27.6,
+                "COO": 7.4,
+                "DE": 17.2,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.6,
+                        "COO": 3.7,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 5.5,
+                        "COO": 1.2,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 3.7,
+                        "COO": 0.6,
+                        "DE": 2.5,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 0.6,
+                        "DE": 5.5,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 3.7,
+                        "COO": 0,
+                        "DE": 9.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1.2,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF": {
+                "TDL": 32.2,
+                "COO": 7.2,
+                "DE": 17.8,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.6,
+                        "COO": 3.3,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 5,
+                        "COO": 1.1,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 5.6,
+                        "COO": 0.6,
+                        "DE": 2.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 1.1,
+                        "DE": 5.6,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 6.7,
+                        "COO": 0,
+                        "DE": 10,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1.1,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1.1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "PANO ROOF": {
+                "TDL": 32.7,
+                "COO": 6.7,
+                "DE": 17.6,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.5,
+                        "COO": 3.1,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 4.7,
+                        "COO": 1,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 6.2,
+                        "COO": 0.5,
+                        "DE": 2.1,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 1,
+                        "DE": 5.2,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 6.2,
+                        "COO": 0,
+                        "DE": 10.4,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 37.3,
+                "COO": 8.4,
+                "DE": 20.6,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.6,
+                        "COO": 3.9,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 5.8,
+                        "COO": 1.3,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 6.4,
+                        "COO": 0.6,
+                        "DE": 2.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 1.3,
+                        "DE": 6.4,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 7.7,
+                        "COO": 0,
+                        "DE": 11.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1.3,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 41.4,
+                "COO": 8.6,
+                "DE": 22.4,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.7,
+                        "COO": 3.9,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 5.9,
+                        "COO": 1.3,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 7.9,
+                        "COO": 0.7,
+                        "DE": 2.6,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 1.3,
+                        "DE": 6.6,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 7.9,
+                        "COO": 0,
+                        "DE": 13.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1.3,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1.3,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 38.5,
+                "COO": 8,
+                "DE": 20.8,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.6,
+                        "COO": 3.7,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 5.5,
+                        "COO": 1.2,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 7.3,
+                        "COO": 0.6,
+                        "DE": 2.4,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 1.2,
+                        "DE": 6.1,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 7.3,
+                        "COO": 0,
+                        "DE": 12.2,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1.2,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1.2,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 46.6,
+                "COO": 9.6,
+                "DE": 25.1,
+                "subactivity": {
+                    "Monitoring process": {
+                        "TDL": 0.7,
+                        "COO": 4.4,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "1"
+                    },
+                    "Customer review meeting - LOP & Index change management": {
+                        "TDL": 6.7,
+                        "COO": 1.5,
+                        "DE": 0,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "2"
+                    },
+                    "Supplier input - output data Management": {
+                        "TDL": 8.9,
+                        "COO": 0.7,
+                        "DE": 3,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "3"
+                    },
+                    "File translation": {
+                        "TDL": 0,
+                        "COO": 1.5,
+                        "DE": 7.4,
+                        "Proto": 0,
+                        "Serie": 0,
+                        "order": "4"
+                    },
+                    "Imposed parts input - output data Management": {
+                        "TDL": 8.9,
+                        "COO": 0,
+                        "DE": 14.8,
+                        "Proto": 1,
+                        "Serie": 1,
+                        "order": "5"
+                    },
+                    "Methodology Deviation List": {
+                        "TDL": 0,
+                        "COO": 1.5,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "6"
+                    },
+                    "CAD Quality Check List": {
+                        "TDL": 1.5,
+                        "COO": 0,
+                        "DE": 0,
+                        "Proto": 2,
+                        "Serie": 3,
+                        "order": "7"
+                    }
+                },
+                "Proto": 0,
+                "Serie": 0
+            }
+        },
+        "DATA MANAGEMENT | Upload & Download customer data": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "128",
+            "NORMAL ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0,
+                "COO": 0,
+                "DE": 0,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Foam block definition": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "129",
+            "NORMAL ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0.5,
+                "COO": 0.25,
+                "DE": 1.75,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Head Impact Countermeasure (DEFO) (METAL)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "130",
+            "NORMAL ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 2.25,
+                "COO": 1,
+                "DE": 5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Head Impact Countermeasure (DEFO) (PLASTIC)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "131",
+            "NORMAL ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 15,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Sunroof frame (METAL)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "132",
+            "NORMAL ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3.25,
+                "COO": 2,
+                "DE": 15.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Sunroof frame (PLASTIC)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "133",
+            "NORMAL ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            },
+            "SUN ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            },
+            "PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3,
+                "COO": 2,
+                "DE": 17.5,
+                "subactivity": {},
+                "Proto": 15,
+                "Serie": 5
+            }
+        },
+        "ADD ON COMPONENTS | Console frame": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "134",
+            "NORMAL ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 3.5,
+                "DE": 12,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Speaker Grille Bezel": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "135",
+            "NORMAL ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 4,
+                "COO": 2,
+                "DE": 20,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Speaker Grille Bracket": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "136",
+            "NORMAL ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1,
+                "DE": 10,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Air Duct": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "137",
+            "NORMAL ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 3.5,
+                "COO": 2.5,
+                "DE": 22.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Basic Plastic component: Retainers": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "138",
+            "NORMAL ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 0.25,
+                "COO": 0.25,
+                "DE": 2,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Basic Plastic component: Reading Lamps (METAL)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "139",
+            "NORMAL ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 3,
+                "DE": 5.25,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Basic Plastic component: Reading Lamps (PLASTIC)": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "140",
+            "NORMAL ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.5,
+                "COO": 3.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Basic Plastic component: Dog Net Cover": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "141",
+            "NORMAL ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Basic Plastic component: Grabhandles": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "142",
+            "NORMAL ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 2,
+                "COO": 1.5,
+                "DE": 7.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Basic Plastic component: Micro Support": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "143",
+            "NORMAL ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 1.25,
+                "COO": 2.5,
+                "DE": 2.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        },
+        "ADD ON COMPONENTS | Frame or Bracket": {
+            "extraWorkLoop": 0,
+            "reWorkLoop": 0,
+            "standardLoop": 0,
+            "checked": false,
+            "order": "144",
+            "NORMAL ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + SUN ROOF + PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "NORMAL ROOF + PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            },
+            "SUN ROOF + PANO ROOF": {
+                "TDL": 2.5,
+                "COO": 1.5,
+                "DE": 12.5,
+                "subactivity": {},
+                "Proto": 1,
+                "Serie": 1
+            }
+        }
+    },
+    "name": "Headliner",
+    "id": 3
+  }

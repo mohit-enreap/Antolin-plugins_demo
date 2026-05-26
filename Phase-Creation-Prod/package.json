@@ -1,0 +1,22 @@
+{
+  "name": "jira-issue-action-custom-ui",
+  "version": "1.0.55",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "@forge/api": "^5.0.0",
+    "@forge/events": "^0.9.7",
+    "@forge/react": "^10.10.0",
+    "@forge/resolver": "1.6.2",
+    "@forge/ui": "^1.11.1",
+    "axios": "^1.8.4",
+    "csv-parser": "^3.1.0",
+    "pako": "^2.1.0",
+    "papaparse": "^5.5.3"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "jira-issue-action-custom-ui-static",
+  "version": "0.1.39",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@atlaskit/button": "^20.3.4",
+    "@atlaskit/checkbox": "^15.2.2",
+    "@atlaskit/css-reset": "^6.6.2",
+    "@atlaskit/form": "^10.6.2",
+    "@atlaskit/modal-dialog": "^12.18.1",
+    "@atlaskit/select": "^18.7.0",
+    "@atlaskit/table": "^0.9.1",
+    "@atlaskit/textfield": "^6.6.0",
+    "@forge/bridge": "4.1.1",
+    "pako": "^2.1.0",
+    "prismjs": "^1.29.0",
+    "react": "^16",
+    "react-dom": "^16",
+    "react-simple-code-editor": "^0.14.1",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "watch": "nodemon --watch src --exec npm run build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
