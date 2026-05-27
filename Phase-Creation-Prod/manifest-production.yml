@@ -32,7 +32,6 @@ modules:
         and:
           issueType: Project
           # #for Stage
-          projectKey: "CTEST"
           jiraExpression: user.getProjectRoles(project).some(p => p.name == "Administrators")
           #for Prod
           # jiraExpression: issue.customfield_10045?.some(u => u.accountId == user.accountId) || issue.customfield_10044?.some(u => u.accountId == user.accountId) || issue.customfield_10079?.some(u => u.accountId == user.accountId) || issue.customfield_10839?.some(u => u.accountId == user.accountId)
@@ -84,8 +83,7 @@ modules:
       events:
         - avi:jira:updated:issue
       filter:
-        # expression: "event.issue.fields?.project.key == 'CWO'"
-        expression: "event.issue.fields?.project.key == 'CTEST'"
+        expression: "event.issue.fields?.project.key == 'CWO'"
     - key: log-update-trigger
       function: enqueue-log-function
       events:

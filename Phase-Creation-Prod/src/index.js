@@ -339,15 +339,20 @@ const calculateAndUpdateField = async (parentIssueKey) => {
 
     console.log(`Found ${outwardIssues.length} child issues to calculate from`);
 
-    // Step 3: Fetch customfield_10061 values for each outward issue
-    let totalSum = 0;
+    // Step 3: Fetch all 4 standard hour field values for each outward issue
+    let totals = {
+      customfield_10075: 0, // COO
+      customfield_10076: 0, // DE
+      customfield_10077: 0, // TDL
+      customfield_10061: 0, // Total Standard
+    };
 
     for (const issueKey of outwardIssues) {
       const issueResponse = await retryJiraApiCall(() =>
         api
           .asApp()
           .requestJira(
-            route`/rest/api/3/issue/${issueKey}?fields=customfield_10061`,
+            route`/rest/api/3/issue/${issueKey}?fields=customfield_10075,customfield_10076,customfield_10077,customfield_10061`,
             {
               method: "GET",
             },
@@ -356,18 +361,25 @@ const calculateAndUpdateField = async (parentIssueKey) => {
 
       if (issueResponse.ok) {
         const issueData = await issueResponse.json();
-        const fieldValue = issueData.fields.customfield_10061 || 0;
-        console.log(`Issue ${issueKey} - Standard Hours: ${fieldValue}`);
-        totalSum += fieldValue;
+        const fields = issueData.fields;
+        totals.customfield_10075 += fields.customfield_10075 || 0;
+        totals.customfield_10076 += fields.customfield_10076 || 0;
+        totals.customfield_10077 += fields.customfield_10077 || 0;
+        totals.customfield_10061 += fields.customfield_10061 || 0;
+        console.log(
+          `Issue ${issueKey} - Standard Hours: ${fields.customfield_10061}`,
+        );
       } else {
         console.error(
           `Failed to fetch data for issue ${issueKey}: ${error.message}`,
         );
       }
     }
-    console.log(`Total sum of child standard hours: ${totalSum}`);
+    console.log(
+      `Total sum of child standard hours: ${totals.customfield_10061}`,
+    );
 
-    // Step 4: Update the parent issue field with the sum
+    // Step 4: Update the parent issue fields with the sums
     const updateResponse = await retryJiraApiCall(() =>
       api.asApp().requestJira(route`/rest/api/3/issue/${parentIssueKey}`, {
         method: "PUT",
@@ -376,7 +388,14 @@ const calculateAndUpdateField = async (parentIssueKey) => {
         },
         body: JSON.stringify({
           fields: {
-            customfield_10061: Number(totalSum?.toFixed(1)) || null,
+            customfield_10075:
+              Number(totals.customfield_10075?.toFixed(1)) || null,
+            customfield_10076:
+              Number(totals.customfield_10076?.toFixed(1)) || null,
+            customfield_10077:
+              Number(totals.customfield_10077?.toFixed(1)) || null,
+            customfield_10061:
+              Number(totals.customfield_10061?.toFixed(1)) || null,
           },
         }),
       }),
@@ -971,30 +990,6 @@ resolver1.define("create-activity", async ({ payload }) => {
           projectId: additionalProps.projectId,
           issueTypeId: "10008", // Replace with your activity issue type ID
           summary: activitySummary,
-          customfield_10077:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.TDL?.toFixed(1)),
-          customfield_10075:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.COO?.toFixed(1)),
-          customfield_10076:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.DE?.toFixed(1)),
-          customfield_10061:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.standard?.toFixed(1)),
           customfield_10078: additionalProps.issueKey,
           customfield_10059:
             activitySummary.includes("| 2D Drawing") ||
@@ -1018,30 +1013,6 @@ resolver1.define("create-activity", async ({ payload }) => {
           projectId: additionalProps.projectId,
           issueTypeId: "10008", // Replace with your activity issue type ID
           summary: activitySummary,
-          customfield_10077:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.TDL?.toFixed(1)),
-          customfield_10075:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.COO?.toFixed(1)),
-          customfield_10076:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.DE?.toFixed(1)),
-          customfield_10061:
-            loopType.includes("| Extra Work") ||
-            loopType.includes("| Re-Work") ||
-            type == "Iter"
-              ? null
-              : Number(additionalProps.standard?.toFixed(1)),
           customfield_10078: additionalProps.issueKey,
           customfield_10059:
             activitySummary.includes("| 2D Drawing") ||
@@ -1192,6 +1163,9 @@ resolver1.define("create-activity", async ({ payload }) => {
         issueTypeId: "10019", // Replace with your Activity Group issue type ID
         summary: activityGroupSummary,
         customfield_10078: issueKey,
+        customfield_10075: standardLoop != 0 ? Number(COO?.toFixed(1)) : null,
+        customfield_10076: standardLoop != 0 ? Number(DE?.toFixed(1)) : null,
+        customfield_10077: standardLoop != 0 ? Number(TDL?.toFixed(1)) : null,
         customfield_10061:
           standardLoop != 0 ? Number(standard?.toFixed(1)) : null,
         customfield_10970: phaseName.value,
@@ -2507,13 +2481,52 @@ export async function updateKPI(event, context) {
         }
 
         if (["Activity"].includes(type)) {
-          if (issueStatus === "Closed") {
-            DFSValue = Number(DFSValue?.toFixed(1)) ?? 0;
-          } else {
-            DFSValue = null;
-          }
+          // For Activity issues, don't calculate DFS% - set to null
+          // DFS Act Hrs (10093) is still calculated and propagated
+          // but DFS% (10066) is calculated only at Activity Group level
+          DFSValue = null;
           console.log("CASE 1---> Type: ", type, "--- Value:", DFSValue);
-        } else if (["Activity Group", "Project", "Phase"].includes(type)) {
+        } else if (["Activity Group"].includes(type)) {
+          // For Activity Group: use its own standard hours (customfield_10061)
+          // not the propagated Close Std Hrs (customfield_10971)
+          const oldValue = DFSValue;
+
+          DFSValue =
+            fieldValue10093 != 0 && fieldValue10093 === fieldValue10061
+              ? 0
+              : (Number(DFSValue?.toFixed(1)) ?? null);
+
+          if (
+            (fieldValue10093 === 0 && fieldValue10061 === 0) ||
+            (fieldValue10093 === null && fieldValue10061 === null)
+          ) {
+            DFSValue = null;
+            console.log(
+              "CASE 2.1---> Type: ",
+              type,
+              "-- Old Value : ",
+              oldValue,
+              " | --- Value:",
+              DFSValue,
+              " && Date fields = ",
+              fieldValue10093,
+              " & ",
+              fieldValue10061,
+            );
+          }
+          console.log(
+            "CASE 2---> Type: ",
+            type,
+            "-- Old Value : ",
+            oldValue,
+            " | --- Value:",
+            DFSValue,
+            " && Date fields = ",
+            fieldValue10093,
+            " & ",
+            fieldValue10061,
+          );
+        } else if (["Project", "Phase"].includes(type)) {
           const oldValue = DFSValue;
 
           DFSValue =
@@ -2607,21 +2620,23 @@ export async function updateKPI(event, context) {
 
         const parentIssueId = await fetchParentIssueId(issueId);
         if (parentIssueId) {
-          const array = [
-            "Project",
-            "Phase",
-            "Activity Group",
-            "Activity",
-          ].includes(type)
+          const array = ["Activity"].includes(type)
             ? [
-                customField10084,
-                customField10085,
-                customField10056,
-                customField10075,
-                customField10076,
-                customField10077,
+                customField10084, // Extra Work
+                customField10085, // Re-work
+                customField10056, // Task Estimation
+                // REMOVED: customField10075, 10076, 10077 NOT propagated from Activity
               ]
-            : [customField10084, customField10085, customField10056];
+            : ["Project", "Phase", "Activity Group"].includes(type)
+              ? [
+                  customField10084, // Extra Work
+                  customField10085, // Re-work
+                  customField10056, // Task Estimation
+                  customField10075, // COO - propagated from AG, Phase, Project
+                  customField10076, // DE - propagated from AG, Phase, Project
+                  customField10077, // TDL - propagated from AG, Phase, Project
+                ]
+              : [customField10084, customField10085, customField10056];
           await propagateActivityHoursBulk(parentIssueId, array);
           if (type == "Activity Group") {
             await propagateActivityHoursBulk(parentIssueId, [
@@ -2838,12 +2853,7 @@ export async function updateKPI(event, context) {
                         ? Number(fieldValue10065.toFixed(1))
                         : null
                       : null,
-                  [customField10971]:
-                    issueData.fields.status.name === "Closed"
-                      ? fieldValue10061 != null
-                        ? Number(fieldValue10061.toFixed(1))
-                        : null
-                      : null,
+                  // REMOVED: [customField10971] - not set at Activity level anymore
                 },
               }),
             });
@@ -2851,7 +2861,7 @@ export async function updateKPI(event, context) {
           const parentIssueId = await fetchParentIssueId(issueId);
           if (parentIssueId) {
             await propagateActivityHoursBulk(parentIssueId, [
-              customField10971,
+              // REMOVED: customField10971
               customField10093,
               customField10094,
               customField10095,
@@ -3307,8 +3317,9 @@ export async function updateIssuesDateField(jql, dateFieldId) {
 export async function updateToday(context) {
   console.log("Scheduled trigger invoked 1");
   console.log(context);
-  const rawJql = `project in ( CWO) AND issuetype in (Activity, "Work Order", Task) AND (cf[11168] < now() OR cf[11168] IS EMPTY) ORDER BY cf[11168] ASC`;
+  // const rawJql = `project in ( CWO) AND issuetype in (Activity, "Work Order", Task) AND (cf[11168] < now() OR cf[11168] IS EMPTY) ORDER BY cf[11168] ASC`;
   // const rawJql = `project in (CDEMO) AND (cf[11168] < now() OR cf[11168] IS EMPTY) ORDER BY cf[11168] ASC`;
+  const rawJql = `project in (CTEST) AND (cf[11168] < now() OR cf[11168] IS EMPTY) ORDER BY cf[11168] ASC`; // Stage --> CTEST
 
   await updateIssuesDateField(rawJql, "customfield_11168");
 }
